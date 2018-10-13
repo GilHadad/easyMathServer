@@ -1,0 +1,23 @@
+{
+    "name": "easyMathServer",
+    "version": "1.0.0",
+    "description": "testing",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "npm run build:live",
+        "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./src/main.ts"
+    },
+    "author": "gil hadad",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^10.7.1",
+        "nodemon": "^1.18.3",
+        "ts-node": "^7.0.1",
+        "typescript": "^3.0.1"
+    },
+    "keywords": [
+        "node",
+        "typescript"
+    ]
+}
